@@ -1,7 +1,7 @@
 
 # Auction Platform
    
-user authentication and authorization using Bearer tokens in a Node.js application with Express.js, Mongoose, and JWT.
+user Signup, Login, Auctions and Bidding using tokens in a Node.js application with Express.js, Mongoose, and JWT.
 
 ## Key Features
 
@@ -10,32 +10,6 @@ user authentication and authorization using Bearer tokens in a Node.js applicati
 - *Secure routes protected by Bearer token authentication* 
 - *Fully documented API using Postman* 
 - *Detailed error handling and validation*
-
-  
-## Screenshots
-
-![Signup](https://github.com/Atchayavijay/FE-Auction-Platform/blob/main/Result%20SS/Register.png)
-
-![Login](https://github.com/Atchayavijay/FE-Auction-Platform/blob/main/Result%20SS/Login.png)
-
-![AuctionPage](https://github.com/Atchayavijay/FE-Auction-Platform/blob/main/Result%20SS/AuctionPage.png)
-
-![LeaderPage](https://github.com/Atchayavijay/FE-Auction-Platform/blob/main/Result%20SS/LeaderBoard.png)
-
-![Winner Email Message](https://github.com/Atchayavijay/FE-Auction-Platform/blob/main/Result%20SS/Email%20Msg.png)
-
-## Demo
-
-Auction Platform
-
-# Signup and Auction
-
-https://github.com/user-attachments/assets/14a7174e-2c06-4fda-b468-a9cc855d85be
-
-# SignUp and Bidding
-
-https://github.com/user-attachments/assets/18c1f745-b0e9-4ff3-ac8c-066b25beeb6e
-
 
 # Installation
 
@@ -68,27 +42,6 @@ https://github.com/user-attachments/assets/18c1f745-b0e9-4ff3-ac8c-066b25beeb6e
 
      bash npm install jsonwebtoken
 
-
-
-## API'S
-
-
-#### Own Api
-#### Register
-http
-https://be-auction-platform.onrender.com/api/v1/user/register
-
-#### Login
-http
-https://be-auction-platform.onrender.com/api/v1/user/login
-
-#### Auction
-http
-https://be-auction-platform.onrender.com/api/v1/user/auctions
-
-#### Leaderboard
-http
-https://be-auction-platform.onrender.com/api/v1/user/leaderboard
 
 #### Frontend and Backend
 
@@ -125,7 +78,54 @@ https://be-auction-platform.onrender.com/api/v1/user/leaderboard
     ```bash
     npm run dev
     ```
-    The frontend will run on [http://localhost:5174](http://localhost:5174).
+    The frontend will run on [http://localhost:5173](http://localhost:5173).
+
+
+  
+## Screenshots
+
+![Signup](https://github.com/Atchayavijay/FE-Auction-Platform/blob/main/Result%20SS/Register.png)
+
+![Login](https://github.com/Atchayavijay/FE-Auction-Platform/blob/main/Result%20SS/Login.png)
+
+![AuctionPage](https://github.com/Atchayavijay/FE-Auction-Platform/blob/main/Result%20SS/AuctionPage.png)
+
+![LeaderPage](https://github.com/Atchayavijay/FE-Auction-Platform/blob/main/Result%20SS/LeaderBoard.png)
+
+![Winner Email Message](https://github.com/Atchayavijay/FE-Auction-Platform/blob/main/Result%20SS/Email%20Msg.png)
+
+
+## Demo - Auction Platform
+
+# Signup and Auction
+
+https://github.com/user-attachments/assets/14a7174e-2c06-4fda-b468-a9cc855d85be
+
+# SignUp and Bidding
+
+https://github.com/user-attachments/assets/18c1f745-b0e9-4ff3-ac8c-066b25beeb6e
+
+
+## API'S
+
+
+#### Own Api
+#### Register
+http
+https://be-auction-platform.onrender.com/api/v1/user/register
+
+#### Login
+http
+https://be-auction-platform.onrender.com/api/v1/user/login
+
+#### Auction
+http
+https://be-auction-platform.onrender.com/api/v1/user/auctions
+
+#### Leaderboard
+http
+https://be-auction-platform.onrender.com/api/v1/user/leaderboard
+
 
 
 ## Deployment FRONTEND-URL
