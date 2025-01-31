@@ -51,7 +51,6 @@ https://github.com/user-attachments/assets/18c1f745-b0e9-4ff3-ac8c-066b25beeb6e
      npm init
 
 
-
 #### Packages to be installed
      bash npm install body-parser
 
@@ -77,35 +76,65 @@ https://github.com/user-attachments/assets/18c1f745-b0e9-4ff3-ac8c-066b25beeb6e
 #### Own Api
 #### Register
 http
-https://backend-password-reset-10.onrender.com/auth/register
+https://be-auction-platform.onrender.com/api/v1/user/register
 
 #### Login
 http
-https://backend-password-reset-10.onrender.com/auth/login
+https://be-auction-platform.onrender.com/api/v1/user/login
 
-#### Data
+#### Auction
 http
-https://backend-password-reset-10.onrender.com/auth/me
+https://be-auction-platform.onrender.com/api/v1/user/auctions
 
+#### Leaderboard
+http
+https://be-auction-platform.onrender.com/api/v1/user/leaderboard
 
+#### Frontend and Backend
 
-## Running Tests
+1. Navigate to the `frontend` directory:
 
-To run tests, run the following command
+    ```bash
+    cd frontend
+    ```
 
-bash
-  npm run dev
+    ```bash
+    cd backend
+    ```
 
-bash
-  npm run start
+2. Install dependencies:
+
+    ```bash
+    npm install
+    ```
+
+    ### Backend
+
+1. Start the backend server:
+
+    ```bash
+    npm run dev
+    ```
+
+    The backend will run on [http://localhost:5000](http://localhost:5000).
+
+### Frontend
+
+1. Start the frontend development server:
+
+    ```bash
+    npm run dev
+    ```
+    The frontend will run on [http://localhost:5174](http://localhost:5174).
+
 
 ## Deployment FRONTEND-URL
 
-
+auctionplatformproject.netlify.app
 
 ## Deployment BACKEND-URL
 
-
+https://be-auction-platform.onrender.com
 
 
 ## Badges
