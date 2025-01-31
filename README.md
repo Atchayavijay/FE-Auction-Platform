@@ -130,7 +130,7 @@ https://be-auction-platform.onrender.com/api/v1/user/leaderboard
 
 ## Deployment FRONTEND-URL
 
-auctionplatformproject.netlify.app
+https://auctionplatformproject.netlify.app
 
 ## Deployment BACKEND-URL
 
