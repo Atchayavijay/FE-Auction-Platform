@@ -14,7 +14,7 @@ user authentication and authorization using Bearer tokens in a Node.js applicati
   
 ## Screenshots
 
-![Signup](https://github.com/Atchayavijay/FE-Auction-Platform/blob/main/Result%20SS/AuctionPage.png)
+![Signup](https://github.com/Atchayavijay/FE-Auction-Platform/blob/main/Result%20SS/Register.png)
 
 ![Login](https://github.com/Atchayavijay/FE-Auction-Platform/blob/main/Result%20SS/Login.png)
 
