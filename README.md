@@ -22,14 +22,19 @@ user authentication and authorization using Bearer tokens in a Node.js applicati
 
 ![LeaderPage](https://github.com/Atchayavijay/FE-Auction-Platform/blob/main/Result%20SS/LeaderBoard.png)
 
-
+![Winner Email Message](https://github.com/Atchayavijay/FE-Auction-Platform/blob/main/Result%20SS/Email%20Msg.png)
 
 ## Demo
 
 Auction Platform
 
+Signup and Auction
 
-https://github.com/user-attachments/assets/22aff33a-4949-4f56-8e38-ad629980e1cc
+https://github.com/user-attachments/assets/14a7174e-2c06-4fda-b468-a9cc855d85be
+
+SignUp and Bidding
+
+https://github.com/user-attachments/assets/18c1f745-b0e9-4ff3-ac8c-066b25beeb6e
 
 
 # Installation
