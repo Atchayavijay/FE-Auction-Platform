@@ -1,5 +1,5 @@
 
-# Password Reset Flow
+# Auction Platform
    
 user authentication and authorization using Bearer tokens in a Node.js application with Express.js, Mongoose, and JWT.
 
