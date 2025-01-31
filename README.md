@@ -28,11 +28,11 @@ user authentication and authorization using Bearer tokens in a Node.js applicati
 
 Auction Platform
 
-Signup and Auction
+# Signup and Auction
 
 https://github.com/user-attachments/assets/14a7174e-2c06-4fda-b468-a9cc855d85be
 
-SignUp and Bidding
+# SignUp and Bidding
 
 https://github.com/user-attachments/assets/18c1f745-b0e9-4ff3-ac8c-066b25beeb6e
 
