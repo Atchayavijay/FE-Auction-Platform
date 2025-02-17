@@ -99,71 +99,10 @@ const UserProfile = () => {
 
               {user.role === "Auctioneer" && (
                 <div className="mb-6 w-full">
-                  {/* <h3 className="mb-4 font-semibold text-xl">
-                    Payment Details
-                  </h3> */}
+                  
                   <div className="gap-4 grid grid-cols-1 md:grid-cols-2">
                     <div>
-                      {/* <label className="block font-medium text-gray-700 text-sm">
-                        Bank Name
-                      </label> */}
-                      {/* <input
-                        type="text"
-                        defaultValue={user.paymentMethods.bankTransfer.bankName}
-                        className="border-gray-300 mt-1 p-2 rounded-md w-ful focus:outline-none"
-                        disabled
-                      /> */}
-                    </div>
-                    {/* <div>
-                      <label className="block font-medium text-gray-700 text-sm">
-                        Bank Account (IBAN)
-                      </label>
-                      <input
-                        type="text"
-                        defaultValue={
-                          user.paymentMethods.bankTransfer.bankAccountNumber
-                        }
-                        className="border-gray-300 mt-1 p-2 rounded-md w-ful focus:outline-none"
-                        disabled
-                      />
-                    </div> */}
-                    {/* <div>
-                      <label className="block font-medium text-gray-700 text-sm">
-                        User Name On Bank Account
-                      </label>
-                      <input
-                        type="text"
-                        defaultValue={
-                          user.paymentMethods.bankTransfer.bankAccountName
-                        }
-                        className="border-gray-300 mt-1 p-2 rounded-md w-ful focus:outline-none"
-                        disabled
-                      />
-                    </div> */}
-                    {/* <div>
-                      <label className="block font-medium text-gray-700 text-sm">
-                        Easypaisa Account Number
-                      </label>
-                      <input
-                        type="text"
-                        defaultValue={
-                          user.paymentMethods.easypaisa.easypaisaAccountNumber
-                        }
-                        className="border-gray-300 mt-1 p-2 rounded-md w-ful focus:outline-none"
-                        disabled
-                      />
-                    </div> */}
-                    {/* <div>
-                      <label className="block font-medium text-gray-700 text-sm">
-                        Paypal Email
-                      </label>
-                      <input
-                        type="text"
-                        defaultValue={user.paymentMethods.paypal.paypalEmail}
-                        className="border-gray-300 mt-1 p-2 rounded-md w-ful focus:outline-none"
-                        disabled
-                      />
-                    </div> */}
+                      </div>
                   </div>
                 </div>
               )}
@@ -173,21 +112,7 @@ const UserProfile = () => {
                   Other User Details
                 </h3>
                 <div className="gap-4 grid grid-cols-1 md:grid-cols-2">
-                  {/* {user.role === "Auctioneer" && (
-                    // <>
-                    //   <div>
-                    //     <label className="block font-medium text-gray-700 text-sm">
-                    //       Unpaid Commissions
-                    //     </label>
-                    //     <input
-                    //       type="text"
-                    //       defaultValue={user.unpaidCommission}
-                    //       className="border-gray-300 mt-1 p-2 rounded-md w-ful focus:outline-none"
-                    //       disabled
-                    //     />
-                    //   </div>
-                    // </>
-                  )} */}
+                 
                   {user.role === "Bidder" && (
                     <>
                       <div>
