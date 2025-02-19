@@ -14,10 +14,7 @@ const Home = () => {
       title: "Win Notification",
       description: "Highest bidder receives a winning email.",
     },
-    {
-      title: "Payment & Fees",
-      description: "Bidder pays; auctioneer pays 5% fee.",
-    },
+   
   ];
 
   const { isAuthenticated } = useSelector((state) => state.user);

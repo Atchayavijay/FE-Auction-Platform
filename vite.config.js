@@ -1,12 +1,17 @@
-import path from "path"
-import react from "@vitejs/plugin-react"
-import { defineConfig } from "vite"
- 
+import path from "path";
+import react from "@vitejs/plugin-react";
+import { defineConfig } from "vite";
+
 export default defineConfig({
-  server:{
-    proxy:{
-      '/api/v1':"https://localhost:5000"
-    }
+  server: {
+    proxy: {
+      "/api/v1": {
+        target: "https://be-auction-platform.onrender.com", // Correct backend URL
+        changeOrigin: true, // Ensure the origin is changed to the target URL
+        secure: false, // Allow self-signed certificates (if applicable)
+        rewrite: (path) => path.replace(/^\/api\/v1/, ""), // Remove /api/v1 prefix
+      },
+    },
   },
   plugins: [react()],
   resolve: {
@@ -14,12 +19,4 @@ export default defineConfig({
       "@": path.resolve(__dirname, "./src"),
     },
   },
-})
-
-// import { defineConfig } from 'vite'
-// import tailwindcss from '@tailwindcss/vite'
-// export default defineConfig({
-//   plugins: [
-//     tailwindcss(),
-//   ],
-// })
+});
