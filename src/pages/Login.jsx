@@ -14,7 +14,7 @@ const Login = () => {
 
   const handleLogin = (e) => {
     e.preventDefault();
-    dispatch(login({ email, password })); // Pass an object instead of FormData
+    dispatch(login({ email, password })); 
   };
 
   useEffect(() => {
